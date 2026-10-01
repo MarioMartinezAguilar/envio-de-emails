@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Enviar Emails Con JavaScript",
+  "license": "ISC",
+  "author": "Mario Martínez Aguilar",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "nodemailer": "^10.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
