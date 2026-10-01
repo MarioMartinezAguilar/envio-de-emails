@@ -9,7 +9,7 @@ const cors = require('cors');
 const app = express();
 
 //Definimos el puerto del servidor
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 // Agregamos el middleware de cors
 app.use(cors({
     origin: 'http://127.0.0.1:5500'
