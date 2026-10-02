@@ -47,10 +47,6 @@ Este proyecto integra un fronted desarrollado con **HTML,CSS y JavaScript** con 
 * 🔥 Nodemon — reinicio automático del servidor durante el desarrollo.
 * 🚀 Git y GitHub — control de versiones y alojamiento del repositorio.
 
-## ☁️ Despliegue
-* 🚀 Backend: Pendiente de despliegue.
-* 🌐 Frontend: Pendiente de despliegue
-
 ## 🎓 Objetivo de aprendizaje
 
 Este proyecto forma parte de mi aprendizaje en desarrollo web full-stack y tiene como finalidad comprender cómo se comunican el frontend y el backend para implementar una funcionalidad real de envío de correos electrónicos.
@@ -91,7 +87,7 @@ Se probó el endpoint `/api/email` para verificar que el backend procesa la soli
 ### 📥 1. Clonar el repositorio
 Clona el repositorio en tu equipo utilizando Git:
 ```bash
-    git clone URL_DEL_REPOSITORIO
+    git clone https://github.com/MarioMartinezAguilar/envio-de-emails
 ```
 
 Después, entra en la carpeta del proyecto:
@@ -180,6 +176,19 @@ Una vez iniciados ambos servicios, el formulario podrá comunicarse con el backe
 * 🔒 **`.gitignore`** — archivos y carpetas que no deben incluirse en el repositorio.
 * 📄 **`.nvmrc`** - Versión de node que se utilizo en este proyecto.
 * 📖 **`README.md`** — documentación del proyecto.
+
+## ☁️ Despliegue
+
+### 🌐 Frontend
+El frontend se encuentra desplegado en **Netlify**.
+la versión desplegada corresponde a la interfaz del formulario y permite visualizar y utilizar la aplicación desde el navegador vemos como esta construido el formulario simulando el envío del correo electrónico
+
+### Backend
+El backend funciona correctamente en entorno local y permite enviar correos mediante **Gmail SMTP**.
+Durante las pruebas de despliegue se comprobó que algunos servicios de hosting gratuitos restringen las conexiones SMTP salientes necesarias para este funcionamiento.
+Por este motivo, el backend se mantiene actualmente en entorno local para conservar la configuración de envío de correos sin depender de servicios de pago.
+
+> 💡 **Nota:** El envío de correos fue probado y verificado correctamente en entorno local.
 
 ## 👨‍💻 Autor
 
